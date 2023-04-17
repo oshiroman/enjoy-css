@@ -1,3 +1,7 @@
+:root {
+  --logo-color: #3f5575;
+}
+
 html, body {
   margin: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -16,4 +20,47 @@ html, body {
 
 .main {
   margin: 8px;  
+}
+
+.logo-shape-o {
+  position: relative;
+  width: 80px;
+  height: 100px;
+  background: var(--logo-color);
+  border-radius: 50%;
+}
+
+.logo-shape-o-white {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  width: 60px;
+  height: 84px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.logo-shape-o-adjustment1 {
+  position: absolute;
+  left: 4px;
+  top: 0;
+  width: 62px;
+  height: 48px;
+  background: var(--logo-color);
+  border-radius: 50% 50% 28px 4px;
+  z-index: 2;
+  transform: rotate(23deg);
+}
+
+.logo-shape-o-adjustment2 {
+  position: absolute;
+  left: 3px;
+  top: 49px;
+  width: 62px;
+  height: 12px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 3;
+  transform: rotate(14deg);
 }
