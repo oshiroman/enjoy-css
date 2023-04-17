@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+  width: 100%;
+  padding: 16px;
+  background: #000;
+}
+
+.header > .logo {
+  width: 16%;
+  height: 16%;
+}
+
+.main {
+  margin: 8px;  
+}
